@@ -1,0 +1,141 @@
+
+Python :
+	1) Core Python
+	2) Advanced Python
+
+1) Python -> invented by Guido van rossum
+	     1991
+
+2) Flight Example :
+	Boarding
+		1) Checkiing the baggage
+		2) Immigration check
+		3) Security check
+		4) Boardign
+		5) Take off
+	Landing ;
+		1) Landing
+		2) Immigration checking
+		3) Security check
+		4) Baggage collect
+		5) Leave the airport
+
+3) What is Program :	
+	Set of instruction given to the computer is called program
+	Act of creating program -> programming
+
+4) Problem solving
+	1) Input
+	2) Process(Computing){Algorithm}
+	3) Output
+
+	Problem :
+		Input(Air India) :
+			In the morning -> at_the_start = 100
+			After some time -> take_off = 40
+			After some time -> landing_planes = 60
+		Process :
+			Current_no_of_flights = at_the_start - take_off + landing_planes 
+					      = 100 - 40 + 60
+                                              = 120
+		
+		Output : 	
+			display(Current_no_of_flights) = 120
+
+5) Representation of Algorithm :
+	1) Pseudo-code -> representing the solution in Plain english
+	2) Flow-chart -> representing the solution in a diagrammatic way
+
+6) Variables :
+	Is a container which store the data and hold the data, till the completion of the program
+
+   Assignment Operator (=):
+	Which will assign the data to -> variable.
+
+7) Operators :
+	Arithematic Operators :
+		+	Add
+		-	sub
+		*	mul
+		/	division
+		%	modulus
+
+	Relational Operators :
+		==	Checking(Whether the values are equal or not)
+			eg :	
+				if equal:
+					True
+				else:
+					False
+
+		<	 less than
+		>	greater than
+		<=	less than or equal to
+		>=	greater than or equal to
+
+	Logical operators :
+		
+		AND
+		OR
+		NOT
+		
+		Resultant : True or False
+
+		True -> T
+		False -> F
+
+		A	B 	A AND B
+
+		T	T	T
+		T	F	F
+		F	T	F
+		F	F	F
+
+		A	B	A OR B
+	
+		T	T	T
+		T	F	T
+		F	T	T
+		F	F	F
+
+		A	NOTA
+		T	F
+		F	T
+
+
+8) Flow of Control 
+	1) Selection structures
+	2) Repetitive structures
+
+		1) Selection structures :
+			1) Single selection statements
+			
+			eg :
+				if runway == "free":
+					display("You can land")
+				else :
+					display("should circle in AIR")		 
+
+			2) Multi selection statements
+			eg :
+				if runway == "free":
+					display("You can land")
+				else if fuel == "low":
+					display("Emergency landing")
+				else :
+					display("should circle in AIR")	
+
+
+Assignment :
+	1) Air India
+	2) Emirates
+	
+	Input :
+		yeswant_baggage = 30
+		Air_India_baggage = 25
+		Emirates_baggage = 40
+
+	Process :
+		Define a Algorithm
+
+	Output
