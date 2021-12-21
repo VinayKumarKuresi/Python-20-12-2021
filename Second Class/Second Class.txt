@@ -1,0 +1,105 @@
+
+1) Flow of Control 
+	1) Selection structures
+	2) Repetitive structures
+
+		1) Selection structures :
+			1) Single selection statements
+			
+			eg :
+				if runway == "free":
+					display("You can land")
+				else :
+					display("should circle in AIR")		 
+
+			2) Multi selection statements
+			eg :
+				1) if runway == "free":
+					display("You can land")
+				end-if
+				if fuel == "low":
+					display("Emergency landing")
+				else :
+					display("should circle in AIR")	
+
+				2) if runway == "free":
+					display("You can land")
+				else if fuel == "low":
+					display("Emergency landing")
+				else :
+					display("should circle in AIR")	
+
+2) input : a > 0 display("positive")
+		 display("Negative")
+
+3) Exmple :
+	Input : 
+		ticket_status = "Confirmed"
+		person_luguage_weight = 32
+		flight_weight_limit = 30
+
+		if person_luguage_weight == 0:
+			no charge
+		if person_luguage_weight > 0 and  person_luguage_weight  <= flight_weight_limit 
+			he is allowed
+		if person_luguage_weight  <= flight_weight_limit  + 10 :
+			extra_charge = 300 * extra_weight
+		if person_luguage_weight  > flight_weight_limit  + 10 :
+			extra_charge = 500 * extra_weight
+
+
+	Process(Algorithm) :
+
+		if ticket_status = "Confirmed":
+			display("X is allowed")
+			if person_luguage_weight == 0:
+				no charge
+			if person_luguage_weight > 0 and  person_luguage_weight  <= flight_weight_limit 
+				he is allowed
+			elif person_luguage_weight  <= flight_weight_limit  + 10 :
+				extra_charge = 300 * person_luguage_weight - flight_weight_limit 
+			elif person_luguage_weight  > flight_weight_limit  + 10 :
+				extra_charge = 500 * person_luguage_weight - flight_weight_limit 
+			
+		else:
+			display("X is not allowed")
+			
+	Output : 
+		whether yeswant can onboard a flight or not
+		what is the extra charge for his baggage wieght
+		
+
+4) BODMAS : 
+	B	-> Bracket
+	O	-> Order(Power, roots)
+	D, M, M -> div, Mul, Modulus
+	A,S	-> add, sub
+
+	5 * (2 * 3) / 4
+
+	Left to right
+
+	5 * 6 / 4
+	30 / 4
+	7.5
+
+	eg :
+		5 + 4 * 9 % (3 + 1) / 6 - 1
+	Ans :   5 + 4 * 9 % (4) / 6 - 1
+                5 + 36 % 4 / 6 - 1
+		5 + 0 / 6 - 1
+   		5 + 0 - 1
+  		4
+
+5) Example :
+	Input : 
+		Planes : Air India, Luftansa, Emirates
+
+		COndition :
+			if Airindia
+				-> Luftansa
+					-> Emirates
+		
+	Output :
+		Which planes Yeswant onBoard
+	
