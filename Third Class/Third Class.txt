@@ -1,0 +1,110 @@
+
+1) Input : 
+		Planes : Air India, Luftansa, Emirates
+
+		Priority COndition :
+			if Airindia
+				-> Luftansa
+					-> Emirates
+
+
+   Process :
+	
+	1) if plane == "Air_India";
+		display("Seat are available in Air India")
+	else if plane == "Luftansa":
+		display("Seat are available in Luftansa")
+	else:
+		display("Seat are available in Emirates")
+
+
+	2) if plane != "Air_India":
+		if plane != "Luftansa":
+			display("Seat are available in Emmirates")
+	else if plane != "Air_India":
+		display("Seat are available in Luftansa")
+	else:
+		display("Seat are available in Air India")
+
+
+	3) if plane != "Air_India" and if plane != "Luftansa":
+		display("Seat are available in Emmirates")
+	else if plane != "Air_India":
+		display("Seat are available in Luftansa")
+	else:
+		display("Seat are available in Air India")
+	
+	
+		
+		
+   Output :
+		Which planes Yeswant onBoard
+
+
+2) Input :
+	A = 30
+	B = 23
+	C = 15
+
+   Process :
+	a is greater than b, c
+
+	if a > b and a > c:
+		display("A is greater")	
+	if b > a and b > c:
+		display("B is greater")	
+	else :
+		display("C is greater")
+
+
+   Output :
+	The Greatest of the three numbers.
+
+
+3) Flow of Control :
+	1) Selection Structures :
+		1) Single
+		2) Multi
+
+	2) Repetitive Structures :
+		1) COnditional(Limit) Defining Repetitive Structures(For).
+		2) Endless Repetitive Structure(While).
+
+	Example :
+		1) Passangers coming to Immigration Counter :
+		   passenger = 1
+		   display("Passanger Count,"passenger)
+		   passenger = passenger  + 1
+		   display("Passanger Count,"passenger)
+		   passenger = passenger  + 1
+		   display("Passanger Count,"passenger)
+
+
+		2) Loop Example :
+			passanger = 1
+			seat_limit = 15
+			for(var passenger = 1, passanger <= seat_limit, passenger = passenger  + 1):
+				display("Passanger Count,"passenger)
+
+		3) Loop Example :	
+			Input : 
+				A= 23
+				B= 50
+
+			Process :
+			
+
+			Output :
+				Stop once A == B
+
+4) While Loop :
+	Example :
+		1) Thread wheel should stop if baggage_count == 0
+
+		baggage_count = 30
+
+		while baggage_count > 0 :
+			picked_up_count = input("Enter the picked up bags : ")
+			baggage_count = baggage_count - picked_up_count 
+			display("Remaning bags are : ", baggage_count)
+			
