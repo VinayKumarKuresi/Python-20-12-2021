@@ -1,0 +1,149 @@
+
+1) Data : 
+	3, "mohan"
+
+2) To use data, it must stored in some location -> memory address.
+	To get the memory address -> we use id() function.
+	In computer science, we generally use hexadecimal form of representation of memory address.
+
+3) Data Type :
+	Data type determines, what type of operation has to be performed on a Operator.
+
+	Numeric Values :
+		Add, sub, mul, athrithematic..
+
+	Word(String) :
+		concatenate, convert, extract substring
+
+4) In Programming(General Programming languages), we have different data types :
+		
+	Category	Data Type	Example
+	
+1)	Numeric		int,		1, 2
+			long		2385348756384578
+
+2)	Numeric with
+	Decimal Points	Float,		2.34
+			Double		234.3458435793457
+
+3)	Alphanumeric	char,		F, a, C
+			String(group of characters is called String) vinay, mohan
+
+4)	Boolean		Boolean		True, False
+
+
+8 bits -> 1 byte
+
+int -> 32 bits -> 4 bytes 
+
+long -> 64 bits -> 8 bytes
+
+
+5) In Python :
+	
+	Category	Data Type	Example
+
+1)	Numeric		int,		234 
+			long		3485634856384
+
+
+2) 	Numeric with
+	Decimal Points	Float		23485.873564237858
+
+3) 	Alphanumeric	Char,		F, c D
+			String		"Cow"
+
+4)	Boolean		Boolean		True, False
+
+
+6) Variables :
+	Box without name -> doesn't give any meaning.
+	Box with label -> give some meaning.
+
+	Variable is the name assigned the Value(Data).
+
+	I will refer to that value, holds that value.
+
+	Input :
+		num1 = 3
+	process :
+		num1 = num1 + 5
+	Output :
+		num1 -> 8
+
+	Reserved keywords :
+
+		We shouldn't use reserved keywords as Variables.
+		
+		a) if -> used to check the condition defining
+		   else
+
+		b) for,
+		   While -> loop defining
+	
+		c) def -> fucntion defining
+
+		d) print -> used to display the value in the console
+
+		e) try,
+		   except -> used for handling exception
+
+		f) raise -> used fof raising the exception
+
+
+	Variable Naming :
+		
+		x, y -> doesn't make a sence
+
+		eg : age, carname
+
+
+	Rules for Python variable defining :
+		
+		1) A variable name must start with a letter or underscore.
+
+			eg : num, _name
+
+		2) A variable cannot start with a number
+
+			eg : 4name = "cow"
+
+			     it will give "SyntaxError: invalid syntax"
+
+		3) A variable must only contain :
+				a) alphanumeric characters
+				b) Underscores.
+
+			ex :
+				name4, _4name.
+
+		
+		4) Variable names are Case-Sensitive.
+			
+			ex : age, Age -> are different variables
+
+
+7) Coding Standards :
+
+	Google has come with Specific Coding standards for Different languages.
+
+	For python :
+		https://google.github.io/styleguide/pyguide.html
+
+		ex :
+			variable name : var_name
+			This format is known as "Snake case"
+
+			ex : current_number_of_flights = 23
+
+		ex :
+			We should give comments for every fucntion we are writing.
+
+			Other can understand the hidden functionality.
+
+			
+
+8) Comments :
+	1) Multi line comment
+	2) single line comment
+
